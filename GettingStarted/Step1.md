@@ -3,23 +3,21 @@ Install Visual Studio Extension
 
 ⏲️ 5 minutes
 
-First step for using SpecFlow is installing the Visual Studio extension.
+In this step you'll learn how to install the Visual Studio extension for SpecFlow.
 
-It  provides several helpful features, such as syntax highlighting for Gherkin (feature) files, a Visual Studio project template, and multiple item templates, which help you create executable specifications with SpecFlow. 
+The Visual Studio extension provides several helpful features, such as syntax highlighting for Gherkin (feature) files, a Visual Studio project template, and multiple item templates, which help you create executable specifications with SpecFlow.
 
-To install the extension, download the extension for your version of Visual Studio:
+Download the extension for your version of Visual Studio:
 
 - [Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio)
 - [Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowforVisualStudio2017)
 
-If you are using an older version of Visual Studio, you have to upgrade to the supported versions.
+If you use an older version of Visual Studio, you'll have to upgrade to one of the supported versions.
 
-After installing the extension, you should see it in the "Managed Extensions" dialog of Visual Studio. 
+When the extension is successfully installed, you'll see it in the list in the "Managed Extensions" dialog of Visual Studio.
 
-![](../_static/step1/extension_dialog_installed.png)
-
+![Managed Extensions Dialog - Exstension Installed](../_static/step1/extension_dialog_installed.png)
 
 Watch these steps:
 
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/QBQbJwYB4Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
