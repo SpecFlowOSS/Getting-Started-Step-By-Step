@@ -14,7 +14,7 @@ Download the extension for your version of Visual Studio:
 
 If you use an older version of Visual Studio, you'll have to upgrade to one of the supported versions.
 
-When the extension is successfully installed, you'll see it in the list in the "Managed Extensions" dialog of Visual Studio.
+When the extension is successfully installed, you can see it in the list of "Installed" extensions in the "Extensions -> Manage Extensions" dialog of Visual Studio.
 
 ![Managed Extensions Dialog - Exstension Installed](../_static/step1/extension_dialog_installed.png)
 
