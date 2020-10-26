@@ -41,4 +41,4 @@ namespace SpecFlowCalculator
 
 ```
 
-Build the solution. The build should succeeed.
+Build the solution. The build should succeed.

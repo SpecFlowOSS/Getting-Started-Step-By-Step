@@ -16,7 +16,7 @@ If you use an older version of Visual Studio, you'll have to upgrade to one of t
 
 When the extension is successfully installed, you can see it in the list of "Installed" extensions in the "Extensions -> Manage Extensions" dialog of Visual Studio.
 
-![Managed Extensions Dialog - Exstension Installed](../_static/step1/extension_dialog_installed.png)
+![Managed Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installed.png)
 
 Watch these steps:
 
