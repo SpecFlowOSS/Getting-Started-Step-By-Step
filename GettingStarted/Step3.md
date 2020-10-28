@@ -29,13 +29,14 @@ Open the test explorer dialog from the menu "Tests -> Test Explorer".
 You should see a test already added to the SpecFlow project.  
 ![Test Explorer First Run](../_static/step3/test_explorer_dialog.png)
 
-Run the tests using the "Run All Tests in View" icon.  
+Run the tests using the "Run All Tests in View" icon. Note that the outcome/status of the test remains "Not Run", hence you have to check the detailed test output.  
 ![Test Explorer First Run](../_static/step3/test_explorer_dialog_first_run.png)
 
 Open the Output pane of Visual Studio (you can open it in the menu "View -> Output" if not already open). Select the "Tests" view in the "Show output from" drop-down.
-You should see the text output of the Runner providing you a link for the activation.  
+You should see the text output of the SpecFlow+ Runner providing you a link for the activation.  
 ![Runner Output for Activation](../_static/step3/runner_output_activation.png)
 
-> 🛈 Note: In this step-by-step guide we use the SpecFlow+Runner as test execution framework that needs an initial activation to run the tests. If you setup your SpecFlow project with another execution framework (xUnit, NUnit, MsTest) you can skip the activation step.
+> 🛈 Note: In this example we use the [SpecFlow+ Runner](https://specflow.org/plus/runner/) to execute the SpecFlow tests, but you can use a number of other test execution frameworks, including NUnit, xUnit and MSTest. SpecFlow+ Runner’s advantages include integration with Visual Studio Test Runner and extensive integrated reports available from within Visual Studio.
+> SpecFlow+ Runner is available free of charge. Only a quick initial activation is necessary to run your scenarios.
 
 In the next step you will learn about how to activate the runner on your machine.
