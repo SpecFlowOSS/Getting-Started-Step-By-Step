@@ -14,14 +14,14 @@ You should see a welcome screen.
 Click the "Sign in with Microsoft" button.  
 ![Add new SpecFlow project](../_static/step4/microsoft_signin.png)
 
-Sign in with your Microsoft account. It can be a personal or work/school account.
-If you are already signed in this should happen automatically, or you might be asked to select an account if you use multiple Microsoft accounts simultaneously.
+Sign in with your Microsoft account. You can use a personal or a work or school account.
+If you are already signed in this should happen automatically. You might be asked to select an account if you use multiple Microsoft accounts simultaneously.
 
-The Microsoft sign in will ask for your permission to sign in to SpecFlow and to share your basic profile information with SpecFlow (e-mail address and name.
-You have to "Accept" the permission request to continue.  
+After the authentication with the selected account Microsoft asks for your permission to sign in to SpecFlow and to share your basic profile information with SpecFlow.
+You have to "Accept" the permission request (consent) to continue.  
 ![Add new SpecFlow project](../_static/step4/microsoft_permission_requested.png)  
 
-> 🛈 Note: If you use your work/school account you might need additional permissions from your Active Directory administrator to continue. [Learn more about admin consents](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-admin-consent-workflow).
+> 🛈 Note: If you use your work or school account, the Azure Active Directory administrator of your organization can configure the application policies, e.g. whether or not you can consent to applications on your behalf. With a restrictive Azure Active Directory configuration only the administrator (or dedicated personnel) might be able to give consent to sign in to SpecFlow from your organization. Follow the instructions on the Microsoft authentication site or contact your Azure Active Directory administrator directly. [Learn more about admin consents](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-admin-consent-workflow).
 
 After you signed in with your Microsoft account fill-in your account details and click "Create Account".  
 ![Add new SpecFlow project](../_static/step4/account_setup.png)
