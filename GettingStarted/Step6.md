@@ -28,7 +28,7 @@ Implement the binding of the second step "And the second number is 70" by replac
 > Note: we use the "And" keyword in the Gherkin scenario for better readability. The "And" keyword will be interpreted as "Given", "When" or "Then" depending on the previous step(s) in the scenario. In our case the "And the second number is 70" is interpreted as a "Given" step, because the previous step is a "Given" step.
 
 Implement the binding of the third step "When the two numbers are added" by replacing the code of the `WhenTheTwoNumbersAreAdded` method. Note that the method must have a `When` attribute, because it belongs to a "When" step in the scenario.
-The implementation calls the `Add` method of the calculator. Note that the result of the addition is not stored by the calculator in a property/field but it is returned  to the caller. It's a good idea to store the returned value in a fields so that we can work with the result afterwards.
+The implementation calls the `Add` method of the calculator. Note that the result of the addition is not stored by the calculator in a property/field but it is returned  to the caller. It's a good idea to store the returned value in a field so that we can work with the result afterwards.
 
 ``` c#
     private int _result;
@@ -71,7 +71,7 @@ namespace SpecFlowCalculator.Specs.Steps
         // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
         private readonly ScenarioContext _scenarioContext;
-        
+
         private readonly Calculator _calculator = new Calculator();
         private int _result;
 
@@ -120,4 +120,4 @@ Click on the "Open additional output for this result" below the stack trace to s
 
 You can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an error. This is because the addition method of the calculator is not implemented yet.
 
-In the next step you'll fix the implementation of the calculator to turn the first scenario green.
+In the next step you'll fix the implementation of the calculator to turn the scenario green.
