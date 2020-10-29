@@ -13,7 +13,7 @@ The purpose of this feature file is to document the expected behavior of your ca
 Scenario: Add two numbers
     Given the first number is 50
     And the second number is 70
-    Then the two numbers are added
+    When the two numbers are added
     Then the result should be 120
 ```
 
