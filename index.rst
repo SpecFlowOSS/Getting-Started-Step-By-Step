@@ -18,4 +18,5 @@ Welcome to the Step-By-Step Getting Started Guide!
    GettingStarted/Step8.md
    GettingStarted/Step9.md
    GettingStarted/Step10.md
+   GettingStarted/Step11.md
 
