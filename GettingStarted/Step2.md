@@ -42,3 +42,5 @@ namespace SpecFlowCalculator
 ```
 
 Build the solution. The build should succeed.
+
+In the next step you'll learn how to create a SpecFlow project.
