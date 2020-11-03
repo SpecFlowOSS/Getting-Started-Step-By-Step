@@ -18,6 +18,4 @@ When the extension is successfully installed, you can see it in the list of "Ins
 
 ![Manage Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installed.png)
 
-Watch these steps:
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/QBQbJwYB4Po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In the next step you'll create a simple application that will be used throughout this guide.
