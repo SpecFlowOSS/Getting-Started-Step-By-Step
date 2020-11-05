@@ -11,7 +11,7 @@ Right-click the solution item "Solution 'SpecFlowCalculator' (1 of 1 project)" i
 Search for "SpecFlow", select the "SpecFlow Project" template and click "Next".  
 ![Add new SpecFlow project](../_static/step3/add_new_project_specflow.png)  
 
-Enter the project name "SpecFlowCalculator.Specs". You can keep the suggested location (the solution folder) and click "Create".  
+Enter the project name "SpecFlowCalculator.Specs". Keep the suggested location (the solution folder) and click "Create".  
 ![Configure SpecFlow Project](../_static/step3/configure_specflow_project.png)  
 
 On the next screen you can configure some further details for the SpecFlow project, but you can leave everything on default now. Click "Create".  
