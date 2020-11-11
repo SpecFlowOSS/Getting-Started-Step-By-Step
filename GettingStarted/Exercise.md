@@ -18,7 +18,7 @@ Scenario: Subtract two numbers
 **2-** Build the solution. The build should succeed.
 
 **3-** Run the tests. Notice that you have now 2 tests (corresponding your two scenarios) and the second scenario is "Skipped" because of missing bindings.  
-![Test Explorer Failed Test](../_static/step8/test_explorer_second_test.png)
+![Test Explorer Failed Test](../_static/step9/test_explorer_second_test.png)
 
 **4-** Click on the "Open additional output for this result" and review the details of the scenario execution.  
 ![Test Explorer Additional Output](../_static/step8/test_explorer_additional_output.png)
