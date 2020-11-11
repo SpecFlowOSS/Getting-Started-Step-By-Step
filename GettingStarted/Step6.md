@@ -11,7 +11,7 @@ In this step you'll bind your first step (automate your first scenario step with
 **1-** Open the `Calculator.feature` file by double-clicking it in the Solution Explorer (SpecFlowCalculator.Specs ➡ Features ➡ Calculator.feature)
 ![Feautre File](../_static/step6/feature_file.png)
 
-The purpose of this feature file is to document the expected behavior of your calculator in a way that it is both human-readable and suitable for test automation. SpecFlow uses the Gherkin language where you can phrase the scenarios using _Given/When/Then_ steps. Currently there is a single scenario (automatically added by the SpecFlow project template) that describes how adding two numbers should work with the calculator.
+The purpose of this feature file is to document the expected behavior of the calculator in a way that it is both human-readable and suitable for test automation. SpecFlow uses the Gherkin language where you can phrase the scenarios using _Given/When/Then_ steps. Currently there is a single scenario (automatically added by the SpecFlow project template) that describes how adding two numbers should work with the calculator.
 
 Here is a closer look at the Gherkin scenario used in this template:
 

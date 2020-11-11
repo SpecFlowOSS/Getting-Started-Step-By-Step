@@ -7,7 +7,7 @@ SpecFlow + Runner Activation
 
 In this step you'll learn how to activate the SpecFlow+Runner on your machine.
 
-**1-** Open the Output pane of Visual Studio (you can open it in the menu "View ➡ Output" if not already open). Select the "Tests" view in the "Show output from" drop-down.
+**1-** Open the Output pane of Visual Studio (you can open it in the menu "View ➡ Output" (if not already open). Select the "Tests" view in the "Show output from" drop-down.
 You should see the test output of the SpecFlow+ Runner including a link for the activation.
 
 ![Runner Output for Activation](../_static/step4/runner_activation.png)
