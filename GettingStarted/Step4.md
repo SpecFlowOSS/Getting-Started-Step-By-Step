@@ -25,4 +25,4 @@ Now the solution is set up with a class library containing the implementation of
 
 ![Test Explorer Dialog](../_static/step4/test_outcome1.png)
 
-![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to activate the SpecFlow + Runner on your machine.
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to activate the SpecFlow + Runner on your machine.

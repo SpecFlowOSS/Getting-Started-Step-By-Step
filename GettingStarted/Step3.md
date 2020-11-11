@@ -24,4 +24,4 @@ You should see the new SpecFlow project in the Solution Explorer as per below:
 
 ![SpecFlow Project Created](../_static/step3/solution_explorer_with_specsv2.png)
 
-![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to add a project reference and how to use the test explorer.
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to add a project reference and how to use the test explorer.

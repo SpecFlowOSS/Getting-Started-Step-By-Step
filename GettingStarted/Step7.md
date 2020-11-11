@@ -119,4 +119,4 @@ The test should execute and fail, this is expected. In the Test Detail Summary p
 
 You can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an error. This is because the addition method of the calculator is not implemented yet.
 
-![Specflow logo](../_static/step1/specflow_logo.png) In the next step you'll fix the implementation of the calculator to fix this error.
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you'll fix the implementation of the calculator to fix this error.

@@ -34,4 +34,4 @@ You have to "Accept" the permission request to continue.
 **7-** Switch back to Visual Studio and re-execute the tests. The test has been executed now (see the duration in milliseconds), but the test does not do much yet and shows the "Skipped" status.  
 ![Add new SpecFlow project](../_static/step5/test_explorer_test_skippedv2.png)
 
-![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to automate your first scenario
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to automate your first scenario

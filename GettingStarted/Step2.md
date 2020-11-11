@@ -44,4 +44,4 @@ namespace SpecFlowCalculator
 
 ![Solution built](../_static/step2/built_project.png)
 
-![Specflow logo](../_static/step1/specflow_logo.png) The calculator application is now built. In the next step you'll learn how to create a SpecFlow project.
+![Specflow logo](../_static/step1/specflow_logov2.png) The calculator application is now built. In the next step you'll learn how to create a SpecFlow project.
