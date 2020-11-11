@@ -1,6 +1,15 @@
 Welcome to the Step-By-Step Getting Started Guide!
 ==================================================
+**What will you learn in this Guide?**
 
+The guide will take you through the process of setting up your first SpecFlow project and 
+automate a simple Gherkin specification against a sample implementation.
+
+**What is not part of this guide?**
+
+The guide is written based on the assumption that you already have a basic understand of C#.
+
+If you like to use additional automation libraries for the UI that can be used together with SpecFlow (e.g. Selenium), you can check the `Bookshop example Intro <https://docs.specflow.org/projects/specflow/en/latest/Getting-Started/Getting-Started-With-An-Example.html>`_ . for learning how a web application can be automated with Specflow and Selenium.
 
 .. toctree::
    :maxdepth: 1
@@ -8,15 +17,17 @@ Welcome to the Step-By-Step Getting Started Guide!
    :numbered:
    
    
-   GettingStarted/Step1.md
-   GettingStarted/Step2.md
-   GettingStarted/Step3.md
-   GettingStarted/Step4.md
-   GettingStarted/Step5.md
-   GettingStarted/Step6.md
-   GettingStarted/Step7.md
-   GettingStarted/Step8.md
+   GettingStarted/Step1.md 
+   GettingStarted/Step2.md 
+   GettingStarted/Step3.md 
+   GettingStarted/Step4.md 
+   GettingStarted/Step5.md 
+   GettingStarted/Step6.md 
+   GettingStarted/Step7.md 
+   GettingStarted/Step8.md 
    GettingStarted/Step9.md
    GettingStarted/Step10.md
-   GettingStarted/Step11.md
+   GettingStarted/Exercise.md
+   GettingStarted/Exercise-Solution.md
+   GettingStarted/Resources.md
 

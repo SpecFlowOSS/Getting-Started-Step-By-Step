@@ -1,37 +1,28 @@
-Activation
-==========
+Create SpecFlow Project - Continue  
+=======================
 
 ⏲️ 5 minutes
 
-In this step you'll learn how to activate your SpecFlow+Runner on your machine.
+You will now add a project reference to the "SpecFlowCalculator" class library in the newly created SpecFlow project. This is necessary because we want to test the "Calculator" class implemented in the class library in the "SpecFlowCalculator.Specs" project. To do this, follow the below steps:
+  
+**1-** Expand the project node "SpecFlowCalculator.Specs" in the Solution Explorer, right-click the "Dependencies" node and select the "Add Project Reference..." menu item.  
 
-Copy the activation link from the test output and open it in your browser.  
-![Runner Output for Activation](../_static/step3/runner_output_activation.png)
+![Add Project Reference Menu](../_static/step3.1/add_project_reference.png)
 
-You should see a welcome screen.  
-![Add new project menu](../_static/step4/activation_welcome.png)
+**2-** In the "Reference Manager" dialog check the "SpecFlowCalculator" class library and click ***OK***.
 
-Click the "Sign in with Microsoft" button.  
-![Add new SpecFlow project](../_static/step4/microsoft_signin.png)
+![Add Project Reference Menu](../_static/step3.1/reference_manager.png)
 
-Sign in with your Microsoft account. You can use a personal or a work or school account.
-If you are already signed in this should happen automatically. You might be asked to select an account if you use multiple Microsoft accounts simultaneously.
+Now the solution is set up with a class library containing the implementation of the calculator and a SpecFlow project that contains the specification and tests of the calculator.
 
-After the authentication with the selected account Microsoft asks for your permission to sign in to SpecFlow and to share your basic profile information with SpecFlow.
-You have to "Accept" the permission request (consent) to continue.  
-![Add new SpecFlow project](../_static/step4/microsoft_permission_requested.png)  
+**3-** Now build the solution. You should see the "Build : 1 succeeded" message in the output window. **Refer to page 2 step 6 of this guide if you cannot recall how to build the solution.*
 
-> 🛈 Note: If you use your work or school account, the Azure Active Directory administrator of your organization can configure the application policies, e.g. whether or not you can consent to applications on your behalf. With a restrictive Azure Active Directory configuration only the administrator (or dedicated personnel) might be able to give consent to sign in to SpecFlow from your organization. Follow the instructions on the Microsoft authentication site or contact your Azure Active Directory administrator directly. [Learn more about admin consents](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-admin-consent-workflow).
+**4-** Open the test explorer dialog from the menu "Tests ➡ Test Explorer".  
 
-After you signed in with your Microsoft account fill-in your account details and click "Create Account".  
-![Add new SpecFlow project](../_static/step4/account_setup.png)
+![Test Explorer Menu](../_static/step3.1/test_explorer.png)
 
-You have successfully signed up your SpecFlow Account and your SpecFlow+ Runner is activated.  
-![Add new SpecFlow project](../_static/step4/activation_success.png)
+**5-** You should see a test already added to the SpecFlow project by the project template. Run the test using the "Run All Tests in View" icon. Note that the outcome/status of the test remains "Not Run" as the test has not executed yet.
 
-Switch back to Visual Studio and execute the tests.  
-![Add new SpecFlow project](../_static/step4/test_explorer_test_skipped.png)
+![Test Explorer Dialog](../_static/step3.1/test_outcome1.png)
 
-Your test has been executed now (see the duration in milliseconds), but the test does not do much yet and shows the "Skipped" status.
-
-In the next step you will learn how to automate your first scenario.
+![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to activate the SpecFlow + Runner on your machine.

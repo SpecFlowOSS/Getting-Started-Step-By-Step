@@ -1,9 +1,19 @@
-Bind remaining steps
-====================
+Bind the first step
+===============
 
 ⏲️ 10 minutes
 
-In this step you'll bind the remaining 3 steps of the first scenario. In the previous step you have created the binding for the first step already.
+In this step you'll bind your first step (automate your first scenario step with SpecFlow).
+
+***If you skipped the previous page make sure you execute the tests with your preferred runner. The test explorer would look like below (see the duration in milliseconds), but it does not do much yet and shows the "Skipped" status.**  
+![Add new SpecFlow project](../_static/step4/test_explorer_test_skippedv2.png)
+
+**1-** Open the `Calculator.feature` file by double-clicking it in the Solution Explorer (SpecFlowCalculator.Specs ➡ Features ➡ Calculator.feature)
+![Feautre File](../_static/step5/feature_file.png)
+
+The purpose of this feature file is to document the expected behavior of your calculator in a way that it is both human-readable and suitable for test automation. SpecFlow uses the Gherkin language where you can phrase the scenarios using _Given/When/Then_ steps. Currently there is a single scenario (automatically added by the SpecFlow project template) that describes how adding two numbers should work with the calculator.
+
+Here is a closer look at the Gherkin scenario used in this template:
 
 ``` Gherkin
 Scenario: Add two numbers
@@ -13,111 +23,44 @@ Scenario: Add two numbers
     Then the result should be 120
 ```
 
-Like in the previous step, you can navigate to the bindings from the feature file, or you can open the `CalculatorStepDefinitions.cs` directly.
+Based on the scenario text, Specflow generates an automated test that executes the scenario. However, it is **not yet defined** what the steps of the scenario should actually **"do"**.
 
-Implement the binding of the second step "And the second number is 70" by replacing the code of the `GivenTheSecondNumberIs` method. The implementation is very similar to the first binding, but you have to set the second number of the calculator.
+**2-** Right-click the first _Given_ step "Given the first number is 50" and select either the "Go To Definition" or the "Go To Step Definition" command.  
+![Go To Definition](../_static/step5/scenario_step_go_to_definitionv2.png)
 
-``` c#
-    [Given("the second number is (.*)")]
-    public void GivenTheSecondNumberIs(int number)
-    {
-        _calculator.SecondNumber = number;
-    }
-```
+Visual Studio locates the step definition (binding) that belongs to this step. In this example, it opens the `CalculatorStepDefinitions` class and jumps to the `GivenTheFirstNumberIs` method.  
 
-> Note: we use the "And" keyword in the Gherkin scenario for better readability. The "And" keyword will be interpreted as "Given", "When" or "Then" depending on the previous step(s) in the scenario. In our case the "And the second number is 70" is interpreted as a "Given" step, because the previous step is a "Given" step.
+![Given Step Binding](../_static/step5/given_step_bindingv2.png)
 
-Implement the binding of the third step "When the two numbers are added" by replacing the code of the `WhenTheTwoNumbersAreAdded` method. Note that the method must have a `When` attribute, because it belongs to a "When" step in the scenario.
-The implementation calls the `Add` method of the calculator. Note that the result of the addition is not stored by the calculator in a property/field but it is returned  to the caller. It's a good idea to store the returned value in a field so that we can work with the result afterwards.
+**The step definition is located based on the  `[Binding]` attribute on the class and the `[Given]` attribute on the method. The regular expression of the _Given_ attribute matches the text of the scenario step.*
+
+**3-** Add the below field to the class to instantiate the calculator that we want to test (SUT).
 
 ``` c#
-    private int _result;
-
-    [When("the two numbers are added")]
-    public void WhenTheTwoNumbersAreAdded()
-    {
-        _result = _calculator.Add();
-    }
-```
-
-Implement the binding of the last step "Then the result should be 120" by replacing the code of the `ThenTheResultShouldBe` method. Note that the method must have a `Then` attribute, because it belongs to a "Then" step in the scenario.
-Add a namespace using for FluentAssertions at the top of the file:
-
-``` c#
-using FluentAssertions;
-```
-
-The implementation validates if the result of the addition matches the expected value (using the FluentAssertions library).
-
-``` c#
-    [Then("the result should be (.*)")]
-    public void ThenTheResultShouldBe(int result)
-    {
-        _result.Should().Be(result);
-    }
-```
-
-After implementing all step definitions and cleaning up the file you should have the following code:
-
-``` c#
-using FluentAssertions;
-using TechTalk.SpecFlow;
-
-namespace SpecFlowCalculator.Specs.Steps
-{
-    [Binding]
-    public sealed class CalculatorStepDefinitions
-    {
-        // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
-
-        private readonly ScenarioContext _scenarioContext;
-
         private readonly Calculator _calculator = new Calculator();
-        private int _result;
+```
 
-        public CalculatorStepDefinitions(ScenarioContext scenarioContext)
-        {
-            _scenarioContext = scenarioContext;
-        }
+**4-** Replace the implementation of the first step definition method with the below code which sets the first number of the calculator.
 
+``` c#
         [Given("the first number is (.*)")]
         public void GivenTheFirstNumberIs(int number)
         {
             _calculator.FirstNumber = number;
         }
-
-        [Given("the second number is (.*)")]
-        public void GivenTheSecondNumberIs(int number)
-        {
-            _calculator.SecondNumber = number;
-        }
-
-        [When("the two numbers are added")]
-        public void WhenTheTwoNumbersAreAdded()
-        {
-            _result = _calculator.Add();
-        }
-
-        [Then("the result should be (.*)")]
-        public void ThenTheResultShouldBe(int result)
-        {
-            _result.Should().Be(result);
-        }
-    }
-}
-
 ```
 
-Build the solution. The build should succeed.
+![Test Explorer](../_static/step5/firststep_code.png)
 
-Run the test.
+**5-** Execute the test in the Test Explorer and click "Open additional output for this result" from the right pane.  
+![Test Explorer](../_static/step5/test_explorerv2.png)
 
-The test should execute and fail. In the Test Detail Summary pane of Test Explorer you can see that a NotImplementedException has been thrown in the Add method of the calculator.  
-![Test Explorer Failed Test](../_static/step6/test_explorer_failed_test.png)
+In the detailed output you can see that the first step "Given the first number is 50" has been matched to the step definition method "CalculatorStepDefinitions.GivenTheFirstNumberIs" as expected, and it has been called with the argument 50. The done status means that the step executed successfully with no errors:
 
-Click on the "Open additional output for this result" below the stack trace to see a more detailed log of the scenario.  
-![Test Explorer Additional Output](../_static/step6/test_explorer_additional_output.png)
+![Done Step Result](../_static/step5/done_step_result.png)
 
-You can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an error. This is because the addition method of the calculator is not implemented yet.
+The next step in the scenario is pending, as we have not yet implemented it:
 
-In the next step you'll fix the implementation of the calculator to turn the scenario green.
+![Pending Step Result](../_static/step5/pending_step_result.png)
+
+![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will bind the rest of the scenario steps.

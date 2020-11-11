@@ -1,79 +1,51 @@
-Solution
-========
+Add Living Documentation
+========================
 
-⏲️ 10 minutes
+⏲️ 5 minutes
 
-In this step you can review the solution for the challenge in the previous step (implementing the subtraction in the calculator).
+In this step you'll learn how to generate a living documentation from your test execution results.
 
-To recap the 3 steps to implement the new feature:
+**1-** Open a command prompt.  
+![Open Command Prompt](../_static/step10/start_menu_command_prompt.png)
 
-1. First add the missing bindings (with the minimum code structure necessary) to get a red scenario.
-1. Next turn the scenario green by actually implementing the logic.
-1. Refactor the implementation if necessary (scenarios should remain green).
+Test quickly if you have the .NET CLI installed.
 
-The first step is to add the missing binding and necessary code to have a red scenario. A quick way of generating the necessary binding methods is if you right-click the unbound step in the feature file and select "Go To Definition".  
-![Ubound Step Go To Definition](../_static/step9/unbound_step_go_to_definition.png)
-
-If SpecFlow does not find the corresponding binding method it offers to generate the skeleton of the binding method into your clipboard.  
-![Copy Skeleton To Clipboard](../_static/step9/copy_skeleton_to_clipboard.png)
-
-Now you can easily paste the method into the binding class and change the implementation.
-
-``` c#
-    [When(@"the two numbers are subtracted")]
-    public void WhenTheTwoNumbersAreSubtracted()
-    {
-        _result = _calculator.Subtract();
-    }
+``` batch
+dotnet --version`
 ```
 
-To be able to implement the binding in a meaningful way you have to extend the public interface of the calculator as well to support the subtraction. However, in the first step, your only goal is to get to an executable red scenario.
-Hence you have to add a `Subtract` method to the calculator, but the implementation should be skipped e.g. by throwing a `NotImplementedException`.
-Note that in this case the scenario will fail in the "When" step already due to the exception and the "Then" step will be skipped.
+![Dotnet Version](../_static/step10/dotnet_version.png)
 
-``` c#
-using System;
+**2-** Install the LivingDoc CLI as a global dotnet tool.
 
-namespace SpecFlowCalculator
-{
-    public class Calculator
-    {
-        public int FirstNumber { get; set; }
-        public int SecondNumber { get; set; }
-
-        public int Add()
-        {
-            return FirstNumber + SecondNumber;
-        }
-
-        public int Subtract()
-        {
-            throw new NotImplementedException();
-        }
-    }
-}
+``` batch
+dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 ```
 
-Alternatively you can return a dummy value (e.g. constant 0). In this case the scenario will also run the "Then" step and fail on the assertion. This is especially beneficial if you've just created the binding of the Then step too and you want to make sure that the binding works as expected.
+![Dotnet Tool Install](../_static/step10/dotnet_tool_install.png)
 
-``` c#
-    public int Subtract()
-    {
-        return 0;
-    }
+**3-** Navigate to the output directory of the SpecFlow project. In this example the solution was setup in the `C:\work` folder.
+
+``` batch
+cd C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1
 ```
 
-If you build the solution and run the tests the scenario should be red and you're ready to move on to the second step.
+**4-** Run the LivingDoc CLI to generate the HTML report.
 
-The second step is to implement the subtraction of the calculator to get the scenario green.
-
-``` c#
-        public int Subtract()
-        {
-            return FirstNumber - SecondNumber;
-        }
+``` batch
+livingdoc FeatureData.json
 ```
 
-If you run the tests again the scenario should be green.
+![LivingDoc CLI](../_static/step10/livingdoc_cli.png)
 
-The third step is to refactor the code while keeping all scenarios green. However, in this case the implementation is so simple that we can skip the refactoring step now.
+**5-** Open the generated HTML with your favorite browser.
+
+``` batch
+C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\LivingDoc.html
+```
+
+Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps.  
+![LivingDoc Calculator Feature](../_static/step10/livingdoc_calculator_feature.png)
+
+Check the test result summary. Click on the "Test Result Summary" tab.  
+![LivingDoc Execution Summary](../_static/step10/livingdoc_test_result_summary.png)

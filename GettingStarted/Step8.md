@@ -1,34 +1,30 @@
-Your Turn
-=========
+Fix implementation
+==================
 
-⏲️ 15 minutes
+⏲️ 3 minutes
 
-In this step it is your turn to implement the subtraction feature of the calculator.
+In this step you'll fix the implementation error of the calculator in the previous page.
 
-Add the following scenario to the `Calculator.feature` file.
+**1-** Open `Calculator.cs` in the `SpecFlowCalculator` class library and replace the implementation of the `Add` method with the below code:
 
-``` Gherkin
-Scenario: Subtract two numbers
-    Given the first number is 120
-    And the second number is 70
-    When the two numbers are subtracted
-    Then the result should be 50
+``` c#
+    public int Add()
+    {
+        return FirstNumber + SecondNumber;
+    }
 ```
 
-Build the solution. The build should succeed.
+![Test Explorer Failed Test](../_static/step7/fix_implementation.png)
 
-Run the tests. Notice that you have now 2 tests (corresponding your two scenarios) and the second scenario is "Skipped" because of missing bindings.  
-![Test Explorer Failed Test](../_static/step8/test_explorer_second_test.png)
+**2-** Build the solution. The build should succeed.
 
-Click on the "Open additional output for this result" and review the details of the scenario execution.  
-![Test Explorer Additional Output](../_static/step8/test_explorer_additional_output.png)
+**3-** Run the test.The test should now execute and succeed with the green tick marks indicating no errors:
 
-Now it is your turn to implement the subtraction feature in three short steps:
+![Test Explorer Failed Test](../_static/step7/test_explorer_green_testv2.png)
 
-1. First add the missing binding (with the minimum code structure necessary) to get a red scenario.
-1. Next turn the scenario green by actually implementing the subtraction logic in the calculator.
-1. Refactor your implementation if necessary (scenarios should remain green).
+**4-** Click on the "Open additional output for this result" to see a more detailed log of the scenario:  
+![Test Explorer Additional Output](../_static/step7/test_explorer_additional_outputv2.png)
 
-Did it work out? 🏆
+You can see that the each step executed successfully and the test is passed.
 
-In the next step you can see a possible solution.
+![Specflow logo](../_static/step1/specflow_logo.png) In the next step you'll learn how to generate a living documentation.

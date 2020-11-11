@@ -1,21 +1,27 @@
 Install Visual Studio Extension
-===============================
+================================
 
-⏲️ 5 minutes
+⏲️ 10 minutes
 
 In this step you'll learn how to install the Visual Studio extension for SpecFlow.
 
-The Visual Studio extension provides several helpful features, such as syntax highlighting for Gherkin (feature) files, a Visual Studio project template, and multiple item templates, which help you create executable specifications with SpecFlow.
+Specflow's Visual Studio extension not only enables the functionalities needed for testing automation, but is also bundled with several helpful <a href="https://docs.specflow.org/projects/specflow/en/latest/Tools/Visual-Studio-Integration-Editing-Features.html" target="_blank" rel="noopener noreferrer">features</a> , to make the journey more intuitive.
 
-Download the extension for your version of Visual Studio:
+Specflow's Visual Studio extension works on Visual Studio 2017 & 2019.
+If you are using an older version of Visual Studio, please upgrade to the <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">latest version</a>.
 
-- [Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio)
-- [Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowforVisualStudio2017)
+Installation of the extension is simple:
 
-If you use an older version of Visual Studio, you'll have to upgrade to one of the supported versions.
+**1-** Open Visual Studio. **We use Visual Studio 2019 in this guide*
 
-When the extension is successfully installed, you can see it in the list of "Installed" extensions in the "Extensions -> Manage Extensions" dialog of Visual Studio.
+**2-** Navigate to "Extensions ➡ Manage Extensions ➡ Online " and search for "Specflow" in the search bar.
 
-![Manage Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installed.png)
+**3-** Hit ***Download*** to begin the installation. You will need to restart Visual Studio for the installation to complete:  
 
-In the next step you'll create a simple application that will be used throughout this guide.
+![Manage Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installation.png)
+
+Once the extension is successfully installed, you can see it in the list of "Installed" extensions in the "Extensions ➡ Manage Extensions" dialog of Visual Studio.
+
+![Manage Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installedv2.png)
+
+![Specflow logo](../_static/step1/specflow_logo.png) In the next steps you'll create a simple application that will be used throughout this guide.

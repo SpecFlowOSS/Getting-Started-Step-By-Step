@@ -1,7 +1,5 @@
-Next steps
+Additional Resources
 ==========
-
-[Join the SpecFlow Community](https://specflow.org/community/)
 
 __Want to learn more?__
 
@@ -29,4 +27,4 @@ __Need Help?__
 
 __Have feedback for us?__
 
-Survey
+<a href="https://surveys.hotjar.com/592217b5-a444-4101-9a5d-b65dd70bde3a" target="_blank" rel="noopener noreferrer">Survey</a>
