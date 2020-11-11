@@ -6,7 +6,7 @@ Add Living Documentation
 In this step you'll learn how to generate a living documentation from your test execution results.
 
 **1-** Open a command prompt.  
-![Open Command Prompt](../_static/step10/start_menu_command_prompt.png)
+![Open Command Prompt](../_static/final/start_menu_command_prompt.png)
 
 Test quickly if you have the .NET CLI installed.
 
@@ -14,7 +14,7 @@ Test quickly if you have the .NET CLI installed.
 dotnet --version`
 ```
 
-![Dotnet Version](../_static/step10/dotnet_version.png)
+![Dotnet Version](../_static/final/dotnet_version.png)
 
 **2-** Install the LivingDoc CLI as a global dotnet tool.
 
@@ -22,7 +22,7 @@ dotnet --version`
 dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 ```
 
-![Dotnet Tool Install](../_static/step10/dotnet_tool_install.png)
+![Dotnet Tool Install](../_static/final/dotnet_tool_install.png)
 
 **3-** Navigate to the output directory of the SpecFlow project. In this example the solution was setup in the `C:\work` folder.
 
@@ -36,7 +36,7 @@ cd C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1
 livingdoc FeatureData.json
 ```
 
-![LivingDoc CLI](../_static/step10/livingdoc_cli.png)
+![LivingDoc CLI](../_static/final/livingdoc_cli.png)
 
 **5-** Open the generated HTML with your favorite browser.
 
@@ -45,7 +45,7 @@ C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\Livi
 ```
 
 Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps.  
-![LivingDoc Calculator Feature](../_static/step10/livingdoc_calculator_feature.png)
+![LivingDoc Calculator Feature](../_static/final/livingdoc_calculator_feature.png)
 
 Check the test result summary. Click on the "Test Result Summary" tab.  
-![LivingDoc Execution Summary](../_static/step10/livingdoc_test_result_summary.png)
+![LivingDoc Execution Summary](../_static/final/livingdoc_test_result_summary.png)

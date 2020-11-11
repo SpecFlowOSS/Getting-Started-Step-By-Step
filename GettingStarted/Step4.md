@@ -7,11 +7,11 @@ You will now add a project reference to the "SpecFlowCalculator" class library i
   
 **1-** Expand the project node "SpecFlowCalculator.Specs" in the Solution Explorer, right-click the "Dependencies" node and select the "Add Project Reference..." menu item.  
 
-![Add Project Reference Menu](../_static/step3.1/Add_Project_Reference.png)
+![Add Project Reference Menu](../_static/step4/Add_Project_Reference.png)
 
 **2-** In the "Reference Manager" dialog check the "SpecFlowCalculator" class library and click ***OK***.
 
-![Add Project Reference Menu](../_static/step3.1/Reference_manager.png)
+![Add Project Reference Menu](../_static/step4/Reference_manager.png)
 
 Now the solution is set up with a class library containing the implementation of the calculator and a SpecFlow project that contains the specification and tests of the calculator.
 
@@ -19,10 +19,10 @@ Now the solution is set up with a class library containing the implementation of
 
 **4-** Open the test explorer dialog from the menu "Tests ➡ Test Explorer".  
 
-![Test Explorer Menu](../_static/step3.1/Test_explorer.png)
+![Test Explorer Menu](../_static/step4/Test_explorer.png)
 
 **5-** You should see a test already added to the SpecFlow project by the project template. Run the test using the "Run All Tests in View" icon. Note that the outcome/status of the test remains "Not Run" as the test has not executed yet.
 
-![Test Explorer Dialog](../_static/step3.1/test_outcome1.png)
+![Test Explorer Dialog](../_static/step4/test_outcome1.png)
 
 ![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to activate the SpecFlow + Runner on your machine.

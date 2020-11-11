@@ -10,28 +10,28 @@ In this step you'll learn how to activate the SpecFlow+Runner on your machine.
 **1-** Open the Output pane of Visual Studio (you can open it in the menu "View ➡ Output" if not already open). Select the "Tests" view in the "Show output from" drop-down.
 You should see the test output of the SpecFlow+ Runner including a link for the activation.
 
-![Runner Output for Activation](../_static/step3.1/runner_activation.png)
+![Runner Output for Activation](../_static/step4/runner_activation.png)
 
 **You will see this link only if you picked SpecFlow+ Runner as your preferred test Runner during the project setup.*
 
 **2-** Copy the activation link from the test output and open it in your browser.  
-![Runner Output for Activation](../_static/step4/activation_link.png)
+![Runner Output for Activation](../_static/step5/activation_link.png)
 
 **3-** You should now see a welcome screen, click the ***Sign in with Microsoft*** button. Preferably, use your work or student Microsoft account to sign in, but if your professional account is restricted and you run into issues you can always use your personal Microsoft account.
 
-![Add new project menu](../_static/step4/activation_welcome.png)
+![Add new project menu](../_static/step5/activation_welcome.png)
 
 **4-** After the authentication with the selected account, Microsoft will ask for your permission to sign in to Specflow and share your basic profile information with Specflow.
 You have to "Accept" the permission request to continue.  
-![Add new SpecFlow project](../_static/step4/microsoft_permission_requestedv2.png)  
+![Add new SpecFlow project](../_static/step5/microsoft_permission_requestedv2.png)  
 
 **5-** After you signed in with your Microsoft account fill-in the required account details and click ***Create Account***.  
-![Add new SpecFlow project](../_static/step4/account_setupv2.png)
+![Add new SpecFlow project](../_static/step5/account_setupv2.png)
 
 **6-** You will then see the below screen showing a successful activation of your Specflow account. Your SpecFlow+ Runner is now activated and ready to use.
-![Add new SpecFlow project](../_static/step4/activation_success.png)
+![Add new SpecFlow project](../_static/step5/activation_success.png)
 
 **7-** Switch back to Visual Studio and re-execute the tests. The test has been executed now (see the duration in milliseconds), but the test does not do much yet and shows the "Skipped" status.  
-![Add new SpecFlow project](../_static/step4/test_explorer_test_skippedv2.png)
+![Add new SpecFlow project](../_static/step5/test_explorer_test_skippedv2.png)
 
 ![Specflow logo](../_static/step1/specflow_logo.png) In the next step you will learn how to automate your first scenario

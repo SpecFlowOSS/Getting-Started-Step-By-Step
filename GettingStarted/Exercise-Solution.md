@@ -12,10 +12,10 @@ To recap the 3 steps to implement the new feature:
 3. Refactor the implementation if necessary (scenarios should remain green).
 
 The first step is to add the missing binding and necessary code to have a red scenario. A quick way of generating the necessary binding methods is if you right-click the unbound step in the feature file and select "Go To Definition".  
-![Ubound Step Go To Definition](../_static/step9/unbound_step_go_to_definition.png)
+![Ubound Step Go To Definition](../_static/step10/unbound_step_go_to_definition.png)
 
 If SpecFlow does not find the corresponding binding method it offers to generate the skeleton of the binding method into your clipboard.  
-![Copy Skeleton To Clipboard](../_static/step9/copy_skeleton_to_clipboard.png)
+![Copy Skeleton To Clipboard](../_static/step10/copy_skeleton_to_clipboard.png)
 
 Now you can easily paste the method into the binding class and change the implementation.
 

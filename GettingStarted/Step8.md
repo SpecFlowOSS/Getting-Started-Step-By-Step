@@ -14,16 +14,16 @@ In this step you'll fix the implementation error of the calculator in the previo
     }
 ```
 
-![Test Explorer Failed Test](../_static/step7/fix_implementation.png)
+![Test Explorer Failed Test](../_static/step8/fix_implementation.png)
 
 **2-** Build the solution. The build should succeed.
 
 **3-** Run the test.The test should now execute and succeed with the green tick marks indicating no errors:
 
-![Test Explorer Failed Test](../_static/step7/test_explorer_green_testv2.png)
+![Test Explorer Failed Test](../_static/step8/test_explorer_green_testv2.png)
 
 **4-** Click on the "Open additional output for this result" to see a more detailed log of the scenario:  
-![Test Explorer Additional Output](../_static/step7/test_explorer_additional_outputv2.png)
+![Test Explorer Additional Output](../_static/step8/test_explorer_additional_outputv2.png)
 
 You can see that the each step executed successfully and the test is passed.
 

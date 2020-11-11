@@ -17,7 +17,7 @@ In this step you'll bind the remaining steps of the scenario.
     }
 ```
 
-![Second Given](../_static/step6/second_step_code.png)
+![Second Given](../_static/step7/second_step_code.png)
 
 **We use the "And" keyword in the Gherkin scenario for better readability. The "And" keyword will be interpreted as "Given", "When" or "Then" depending on the previous step(s) in the scenario. In this example the "And the second number is 70" is interpreted as a "Given" step because the previous step is a "Given" step.*
 
@@ -33,7 +33,7 @@ In this step you'll bind the remaining steps of the scenario.
     }
 ```
 
-![Second Given](../_static/step6/when_step_code.png)
+![Second Given](../_static/step7/when_step_code.png)
 
 This implementation calls the `Add` method of the calculator. Note that the result of the addition is not stored by the calculator in a property/field but it is returned  to the caller. It's a good idea to store the returned value in a field so that we can work with the result afterwards.
 
@@ -54,7 +54,7 @@ Use the below code for implementation of the "Then" step which validates if the 
         _result.Should().Be(result);
     }
 ```
-![Second Given](../_static/step6/then_step_code.png)
+![Second Given](../_static/step7/then_step_code.png)
 
 After implementing all step definitions and cleaning up the file you should have the following code:
 
@@ -112,10 +112,10 @@ namespace SpecFlowCalculator.Specs.Steps
 **6-** Run the test again.
 
 The test should execute and fail, this is expected. In the Test Detail Summary pane of Test Explorer you can see that a NotImplementedException has been thrown in the Add method of the calculator.  
-![Test Explorer Failed Test](../_static/step6/test_explorer_failed_testv2.png)
+![Test Explorer Failed Test](../_static/step7/test_explorer_failed_testv2.png)
 
 **7-** Click on the "Open additional output for this result" below the stack trace to see a more detailed log of the scenario.  
-![Test Explorer Additional Output](../_static/step6/test_explorer_additional_outputv2.png)
+![Test Explorer Additional Output](../_static/step7/test_explorer_additional_outputv2.png)
 
 You can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an error. This is because the addition method of the calculator is not implemented yet.
 

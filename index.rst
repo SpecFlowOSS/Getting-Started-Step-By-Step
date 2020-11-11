@@ -9,6 +9,8 @@ automate a simple Gherkin specification against a sample implementation.
 
 The guide is written based on the assumption that you already have a basic understand of C#.
 
+Before you start with SpecFlow, you need to familiarise yourself with Behavior Driven Development (BDD). Therefore we recommend that you read our Getting Started with Behavior Driven Development and Glossary.
+
 If you like to use additional automation libraries for the UI that can be used together with SpecFlow (e.g. Selenium), you can check the `Bookshop example Intro <https://docs.specflow.org/projects/specflow/en/latest/Getting-Started/Getting-Started-With-An-Example.html>`_ . for learning how a web application can be automated with Specflow and Selenium.
 
 .. toctree::
