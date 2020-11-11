@@ -3,7 +3,7 @@ SpecFlow + Runner Activation
 
 ⏲️ 5 minutes
 
-***You may skip this step if you picked a different runner than Specflow + Runner during the project setup (Step 3)*.
+***You may skip this step if you picked a different runner than Specflow + Runner during the project setup (Step 3)**.
 
 In this step you'll learn how to activate the SpecFlow+Runner on your machine.
 
