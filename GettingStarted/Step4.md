@@ -19,7 +19,7 @@ Now the solution is set up with a class library containing the implementation of
 
 **4-** Open the test explorer dialog from the menu "Tests ➡ Test Explorer".  
 
-![Test Explorer Menu](../_static/step4/Test_explorer.png)
+![Test Explorer Menu](../_static/step4/test_explorer.png)
 
 **5-** You should see a test already added to the SpecFlow project by the project template. Run the test using the "Run All Tests in View" icon. Note that the outcome/status of the test remains "Not Run" as the test has not executed yet.
 
