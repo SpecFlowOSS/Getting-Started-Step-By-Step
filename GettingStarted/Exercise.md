@@ -31,4 +31,4 @@ Now it is your turn to implement the subtraction feature in three short steps:
 
 Did it work out? 🏆
 
-In the next step you can see a possible solution.
+Check the next step for a possible solution.
