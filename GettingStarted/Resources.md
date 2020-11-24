@@ -24,7 +24,3 @@ __Need Help?__
 * [Forum](https://support.specflow.org/hc/en-us/community/topics)
 * [Trainers](https://specflow.org/trainers/)
 * [Online Courses](https://specflow.org/online-courses/)
-
-__Have feedback for us?__
-
-<a href="https://surveys.hotjar.com/592217b5-a444-4101-9a5d-b65dd70bde3a" target="_blank" rel="noopener noreferrer">Survey</a>
