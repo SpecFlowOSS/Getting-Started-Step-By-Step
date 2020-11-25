@@ -21,13 +21,19 @@ function dismissBannerForAWeek() {
 }
 
 function removeBanner() {
-    $(".sf-banner").remove();
+    $(".sf-banner").hide();
 }
 
+function showBanner() {
+    $(".sf-banner").show();
+}
 
 $(document).ready(function () {
     var bannerDismissed = accessCookie("_sf_banner");
     if (bannerDismissed != "") {
         removeBanner();
+    }
+    else {
+        showBanner();
     }
 });
