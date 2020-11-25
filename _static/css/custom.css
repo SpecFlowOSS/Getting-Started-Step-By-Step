@@ -40,9 +40,9 @@ a:hover {
   text-align: center;
   vertical-align: middle;
   background-color: rgb(113, 111, 179);
-  height: 50px;
+  height: 46px;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
   padding: .3em 1em .3em .7em;
 }
@@ -76,4 +76,5 @@ a:hover {
     width: 36px;
     height: 36px;
     box-sizing: border-box;
+    padding-bottom: 6px;
 }
