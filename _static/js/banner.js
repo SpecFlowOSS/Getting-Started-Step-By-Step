@@ -25,7 +25,7 @@ function removeBanner() {
 }
 
 function showBanner() {
-    $(".sf-banner").show();
+    $(".sf-banner").fadeIn(400);
 }
 
 $(document).ready(function () {
