@@ -62,6 +62,7 @@ html_css_files = [
 
 html_js_files = [
     'js/hotjar.js',
+    'js/banner.js'
 ]
 html_baseurl = 'https://docs.specflow.org/'
 

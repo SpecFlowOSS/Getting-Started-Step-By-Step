@@ -1,35 +1,79 @@
 .wy-side-nav-search {
-    background-color: #e9e7ee;
+  background-color: #e9e7ee;
 }
-a, a:visited, a:hover {
-    color: #8588b6
+a,
+a:visited,
+a:hover {
+  color: #8588b6;
 }
 
 .wy-menu-vertical a:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .wy-menu-vertical a {
-    color: #8588b6
+  color: #8588b6;
 }
 
 .wy-menu {
-    background-color: #e9e7ee;
+  background-color: #e9e7ee;
 }
 
 .wy-nav-side {
-    color:#e9e7ee;
-    background-color: #e9e7ee;
+  color: #e9e7ee;
+  background-color: #e9e7ee;
 }
 
 .wy-menu-vertical li.current {
-    background-color: #f8f5ff;
+  background-color: #f8f5ff;
 }
 
 .caption-text {
-    color: black;
+  color: black;
 }
 
 .wy-nav-content {
-    max-width: 80%;
+  max-width: 80%;
+}
+
+.sf-banner {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(113, 111, 179);
+  height: 50px;
+  font-weight: 600;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  padding: .3em 1em .3em .7em;
+}
+
+.sf-banner-link {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.28);
+  font-weight: 400;
+  border-radius: 0.25em;
+  float: none;
+  padding: 0.2em 1.3em;
+}
+
+.sf-banner-close {
+    background-image: url(../sprite_1.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 100%;
+    opacity: .7;
+    display: inline-block;
+    background-position: -80px center;
+}
+
+.sf-banner-close-div {
+    z-index: 1000000;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
 }
