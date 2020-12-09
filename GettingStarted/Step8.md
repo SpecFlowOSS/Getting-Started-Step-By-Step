@@ -25,6 +25,6 @@ In this step you'll fix the implementation error of the calculator in the previo
 **4-** Click on the "Open additional output for this result" to see a more detailed log of the scenario:  
 ![Test Explorer Additional Output](../_static/step8/test_explorer_additional_outputv2.png)
 
-You can see that the each step executed successfully and the test is passed.
+You can see that each step executed successfully and the test is passed.
 
-![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you'll learn how to generate a living documentation.
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you'll learn how to generate living documentation.

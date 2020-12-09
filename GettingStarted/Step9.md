@@ -3,18 +3,12 @@ Add Living Documentation
 
 ⏲️ 5 minutes
 
-In this step you'll learn how to generate a living documentation from your test execution results.
+In this step you'll learn how to generate a living documentation from your test execution results so you can easily share them with your team.
+
 
 **1-** Open a command prompt.  
 ![Open Command Prompt](../_static/final/start_menu_command_prompt.png)
 
-Test quickly if you have the .NET CLI installed.
-
-``` batch
-dotnet --version`
-```
-
-![Dotnet Version](../_static/final/dotnet_version.png)
 
 **2-** Install the LivingDoc CLI as a global dotnet tool.
 
@@ -24,28 +18,35 @@ dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 
 ![Dotnet Tool Install](../_static/final/dotnet_tool_install.png)
 
-**3-** Navigate to the output directory of the SpecFlow project. In this example the solution was setup in the `C:\work` folder.
+**3-** Navigate to the **output directory of the SpecFlow project**. In this example the solution was setup in the `C:\work` folder.
 
 ``` batch
 cd C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1
 ```
 
-**4-** Run the LivingDoc CLI to generate the HTML report.
+**4-** Run the LivingDoc CLI by using the below command to generate the HTML report.
 
 ``` batch
-livingdoc FeatureData.json
+livingdoc test-assembly SpecFlowCalculator.Specs.dll -t TestExecution.json
 ```
 
-![LivingDoc CLI](../_static/final/livingdoc_cli.png)
+![LivingDoc CLI](../_static/final/livingdoc_cliv2.png)
 
-**5-** Open the generated HTML with your favorite browser.
+**5-** Open the generated HTML with your favorite browser. The HTML file is stored in the same folder as the **output directory of the SpecFlow project**.
 
 ``` batch
 C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\LivingDoc.html
 ```
 
-Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps.  
-![LivingDoc Calculator Feature](../_static/final/livingdoc_calculator_feature.png)
+Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps. 
 
-Check the test result summary. Click on the "Test Result Summary" tab.  
-![LivingDoc Execution Summary](../_static/final/livingdoc_test_result_summary.png)
+![LivingDoc Calculator Feature](../_static/final/livingdoc_calculator_featurev2.png)
+
+Check the test result summary by clicking on the "Analytics" tab: 
+
+![LivingDoc Execution Summary](../_static/final/livingdoc_test_result_summaryv2.png)
+
+
+SpecFlow+LivingDoc is packed with great features that truly bring your documentation to life!
+
+![Specflow logo](../_static/step1/specflow_logov2.png) To read more about SpecFlow+LivingDoc and its features, please visit our dedicated [LivingDoc documentation page](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/index.html).
