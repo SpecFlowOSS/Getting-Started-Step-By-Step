@@ -38,14 +38,15 @@ livingdoc test-assembly SpecFlowCalculator.Specs.dll -t TestExecution.json
 C:\work\SpecFlowCalculator\SpecFlowCalculator.Specs\bin\Debug\netcoreapp3.1\LivingDoc.html
 ```
 
-Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps. 
+**Note if you run into issues here, e.g your JSON file name is FeatureData.JSON instead of TestExecution.JSON, this indicates you have an older version of the CLI tool. Please check our [migration guide here](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/Guides/Generator-Migration-v3.4-v3.5.html) to upgrade to the latest version.*
+
+Review the living documentation of the calculator features that you have implemented. Select the "Calculator" feature in the tree. On the right pane check the detailed description of the feature and the scenarios. You can also see the "green" test execution result of the scenarios and steps.
 
 ![LivingDoc Calculator Feature](../_static/final/livingdoc_calculator_featurev2.png)
 
-Check the test result summary by clicking on the "Analytics" tab: 
+Check the test result summary by clicking on the "Analytics" tab:
 
 ![LivingDoc Execution Summary](../_static/final/livingdoc_test_result_summaryv2.png)
-
 
 SpecFlow+LivingDoc is packed with great features that truly bring your documentation to life!
 
