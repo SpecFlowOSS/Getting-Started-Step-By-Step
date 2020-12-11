@@ -4,6 +4,8 @@ Create SpecFlow Project - Continue
 ⏲️ 5 minutes
 
 You will now add a project reference to the "SpecFlowCalculator" class library in the newly created SpecFlow project. This is necessary because we want to test the "Calculator" class implemented in the class library in the "SpecFlowCalculator.Specs" project. To do this, follow the below steps:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y03Yw9_b_q8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 **1-** Expand the project node "SpecFlowCalculator.Specs" in the Solution Explorer, right-click the "Dependencies" node and select the "Add Project Reference..." menu item.  
 

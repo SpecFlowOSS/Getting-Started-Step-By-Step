@@ -1,6 +1,5 @@
 Install Visual Studio Extension
 ================================
-
 ⏲️ 10 minutes
 
 In this step you'll learn how to install the Visual Studio extension for SpecFlow.
@@ -9,6 +8,8 @@ Specflow's Visual Studio extension not only enables the functionalities needed f
 
 Specflow's Visual Studio extension works on Visual Studio 2017 & 2019.
 If you are using an older version of Visual Studio, please upgrade to the <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener noreferrer">latest version</a>.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDEgfCn31o0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Installation of the extension is simple:
 
