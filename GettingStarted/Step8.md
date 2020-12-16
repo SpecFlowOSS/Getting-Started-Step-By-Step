@@ -5,6 +5,8 @@ Fix implementation
 
 In this step you'll fix the implementation error of the calculator in the previous page.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5l74wwL6dEc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **1-** Open `Calculator.cs` in the `SpecFlowCalculator` class library and replace the implementation of the `Add` method with the below code:
 
 ``` c#

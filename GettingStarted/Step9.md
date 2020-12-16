@@ -5,6 +5,7 @@ Add Living Documentation
 
 In this step you'll learn how to generate a living documentation from your test execution results so you can easily share them with your team.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eX8JCtZKPfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **1-** Open a command prompt.  
 ![Open Command Prompt](../_static/final/start_menu_command_prompt.png)

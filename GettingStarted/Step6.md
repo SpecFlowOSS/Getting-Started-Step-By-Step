@@ -5,6 +5,8 @@ Bind the first step
 
 In this step you'll bind your first step (automate your first scenario step with SpecFlow).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iXKFVGynrX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ***If you skipped the previous page make sure you execute the tests with your preferred runner. The test explorer would look like below (see the duration in milliseconds), but it does not do much yet and shows the "Skipped" status.**  
 ![Add new SpecFlow project](../_static/step5/test_explorer_test_skippedv2.png)
 

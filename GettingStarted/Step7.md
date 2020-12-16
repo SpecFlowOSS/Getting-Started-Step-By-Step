@@ -5,6 +5,8 @@ Bind remaining steps
 
 In this step you'll bind the remaining steps of the scenario.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vEqglJKmBVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **1-** Similar to the previous page , navigate to the bindings from the feature file by right-clicking the second Given step "And the second number is 70" and select either the "Go To Definition" or the "Go To Step Definition" command. Alternatively you can open the `CalculatorStepDefinitions.cs` directly.
 
 **2-** Implement the binding of the second step "And the second number is 70" by replacing the code of the `GivenTheSecondNumberIs` method with the below:
