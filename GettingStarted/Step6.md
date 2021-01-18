@@ -11,7 +11,7 @@ In this step you'll bind your first step (automate your first scenario step with
 ![Add new SpecFlow project](../_static/step5/test_explorer_test_skippedv2.png)
 
 **1-** Open the `Calculator.feature` file by double-clicking it in the Solution Explorer (SpecFlowCalculator.Specs ➡ Features ➡ Calculator.feature)
-![Feautre File](../_static/step6/feature_file.png)
+![Feautre File](../_static/step6/feature_file2.png)
 
 The purpose of this feature file is to document the expected behavior of the calculator in a way that it is both human-readable and suitable for test automation. SpecFlow uses the Gherkin language where you can phrase the scenarios using _Given/When/Then_ steps. Currently there is a single scenario (automatically added by the SpecFlow project template) that describes how adding two numbers should work with the calculator.
 
@@ -28,7 +28,7 @@ Scenario: Add two numbers
 Based on the scenario text, Specflow generates an automated test that executes the scenario. However, it is **not yet defined** what the steps of the scenario should actually **"do"**.
 
 **2-** Right-click the first _Given_ step "Given the first number is 50" and select either the "Go To Definition" or the "Go To Step Definition" command.  
-![Go To Definition](../_static/step6/scenario_step_go_to_definitionv2.png)
+![Go To Definition](../_static/step6/scenario_step_go_to_definitionv3.png)
 
 Visual Studio locates the step definition (binding) that belongs to this step. In this example, it opens the `CalculatorStepDefinitions` class and jumps to the `GivenTheFirstNumberIs` method.  
 
