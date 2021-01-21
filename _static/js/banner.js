@@ -28,12 +28,12 @@ function showBanner() {
     $(".sf-banner").fadeIn(400);
 }
 
-// $(document).ready(function () {
-//     var bannerDismissed = accessCookie("_sf_banner");
-//     if (bannerDismissed != "") {
-//         removeBanner();
-//     }
-//     else {
-//         showBanner();
-//     }
-// });
+$(document).ready(function () {
+    var bannerDismissed = accessCookie("_sf_banner");
+    if (bannerDismissed != "") {
+        removeBanner();
+    }
+    else {
+        showBanner();
+    }
+});
