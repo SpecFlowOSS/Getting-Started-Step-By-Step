@@ -34,7 +34,9 @@ You have to "Accept" the permission request to continue.
 **6-** You will then see the below screen showing a successful activation of your Specflow account. Your SpecFlow+ Runner is now activated and ready to use.
 ![Add new SpecFlow project](../_static/step5/activation_success.png)
 
+*> **Note**: Please note that an actiavation is needed for each user/machine.*
+
 **7-** Switch back to Visual Studio and re-execute the tests. The test has been executed now (see the duration in milliseconds), but the test does not do much yet and shows the "Skipped" status.  
 ![Add new SpecFlow project](../_static/step5/test_explorer_test_skippedv2.png)
 
-![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to automate your first scenario
+![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to automate your first scenario.
