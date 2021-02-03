@@ -36,7 +36,7 @@ Visual Studio locates the step definition (binding) that belongs to this step. I
 
 **The step definition is located based on the  `[Binding]` attribute on the class and the `[Given]` attribute on the method. The regular expression of the _Given_ attribute matches the text of the scenario step.*
 
-**3-** Add the below field to the class to instantiate the calculator that we want to test (SUT).
+**3-** Add the below field to the class to instantiate the calculator that we want to test and created in [Step 2](../GettingStarted/Step2.md) of this guide (SUT).
 
 ``` c#
         private readonly Calculator _calculator = new Calculator();
