@@ -17,7 +17,9 @@ The application will be a simple calculator in a C# class library.
 ![Create Class Library](../_static/step2/create_class_libv2.png)  
 
 **3-** Enter the project name as "SpecFlowCalculator", choose a location to save the project and hit ***Create***. In this scenario the solution will be saved to `C:\work`.
+
 ![Configure Class Library Project](../_static/step2/configure_projectv2.png)  
+
 **Solution name automatically updates to project name, leave it as is.*  
 
 **4-** Rename `Class1.cs` to `Calculator.cs` and overwrite the content with the following code :
