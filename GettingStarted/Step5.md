@@ -3,7 +3,7 @@ SpecFlow + Runner Activation
 
 ⏲️ 5 minutes
 
-***You may skip this step if you picked a different runner than Specflow + Runner during the project setup (Step 3)**.
+***You may skip this step if you picked a different runner than SpecFlow + Runner during the project setup (Step 3)**.
 
 In this step you'll learn how to activate the SpecFlow+Runner on your machine.
 
@@ -24,14 +24,14 @@ You should see the test output of the SpecFlow+ Runner including a link for the 
 
 ![Add new project menu](../_static/step5/activation_welcome.png)
 
-**4-** After the authentication with the selected account, Microsoft will ask for your permission to sign in to Specflow and share your basic profile information with Specflow.
+**4-** After the authentication with the selected account, Microsoft will ask for your permission to sign in to SpecFlow and share your basic profile information with SpecFlow.
 You have to "Accept" the permission request to continue.  
 ![Add new SpecFlow project](../_static/step5/microsoft_permission_requestedv2.png)  
 
 **5-** After you signed in with your Microsoft account fill-in the required account details and click ***Create Account***.  
 ![Add new SpecFlow project](../_static/step5/account_setupv2.png)
 
-**6-** You will then see the below screen showing a successful activation of your Specflow account. Your SpecFlow+ Runner is now activated and ready to use.
+**6-** You will then see the below screen showing a successful activation of your SpecFlow account. Your SpecFlow+ Runner is now activated and ready to use.
 ![Add new SpecFlow project](../_static/step5/activation_success.png)
 
 *> **Note**: Please note that an actiavation is needed for each user/machine.*

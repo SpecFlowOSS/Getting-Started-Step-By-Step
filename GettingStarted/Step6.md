@@ -25,7 +25,7 @@ Scenario: Add two numbers
     Then the result should be 120
 ```
 
-Based on the scenario text, Specflow generates an automated test that executes the scenario. However, it is **not yet defined** what the steps of the scenario should actually **"do"**.
+Based on the scenario text, SpecFlow generates an automated test that executes the scenario. However, it is **not yet defined** what the steps of the scenario should actually **"do"**.
 
 **2-** Right-click the first _Given_ step "Given the first number is 50" and select either the "Go To Definition" or the "Go To Step Definition" command.  
 ![Go To Definition](../_static/step6/scenario_step_go_to_definitionv3.png)
