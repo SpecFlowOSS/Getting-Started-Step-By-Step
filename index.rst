@@ -19,7 +19,7 @@ automate a simple Gherkin specification against a sample application.
 
 **What is not part of this guide?**
 
-If you like to use additional automation libraries that can be used together with SpecFlow (e.g. Selenium for UI automation), you can check the `Bookshop example Intro <https://docs.specflow.org/projects/specflow/en/latest/Getting-Started/Getting-Started-With-An-Example.html>`_ .
+If you like to use additional automation libraries that can be used together with SpecFlow (e.g. Selenium for UI automation), you can check the `Bookshop example <https://docs.specflow.org/projects/specflow/en/latest/Getting-Started/Getting-Started-With-An-Example.html>`_  or the `Selenium example <https://docs.specflow.org/projects/specflow/en/latest/ui-automation/Selenium-with-Page-Object-Pattern.html>`_.
 
 **Do you need any further help?**
 
