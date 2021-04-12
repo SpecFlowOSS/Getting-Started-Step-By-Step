@@ -51,4 +51,4 @@ Check the test result summary by clicking on the "Analytics" tab:
 
 SpecFlow+LivingDoc is packed with great features that truly bring your documentation to life!
 
-![Specflow logo](../_static/step1/specflow_logov2.png) To read more about SpecFlow+LivingDoc and its features, please visit our dedicated [LivingDoc documentation page](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/index.html).
+📄 To read more about SpecFlow+LivingDoc and its features, please visit our dedicated [LivingDoc documentation page](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/index.html).

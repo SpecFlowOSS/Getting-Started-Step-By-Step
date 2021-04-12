@@ -8,7 +8,6 @@ The application will be a simple calculator in a C# class library.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4DcOVMFsCI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 **1-** Open Visual Studio and create a new C# class library by selecting "Create a new project" from the Visual Studio startup dialog:
   
 ![Visual Studio Startup Dialog](../_static/step2/vs_startup_dialogv2.png)  
@@ -49,4 +48,4 @@ namespace SpecFlowCalculator
 
 ![Solution built](../_static/step2/built_project.png)
 
-![Specflow logo](../_static/step1/specflow_logov2.png) The calculator application is now built. In the next step you'll learn how to create a SpecFlow project.
+📄 The calculator application is now built. In the next step you'll learn how to create a SpecFlow project.

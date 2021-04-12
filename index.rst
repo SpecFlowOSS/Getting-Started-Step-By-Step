@@ -2,8 +2,10 @@ Welcome to the Step-By-Step Getting Started Guide!
 ==================================================
 **Before you start**
 
-This guide is aimed at more technical users who are familiar with Visual Studio and have a basic understanding of C#. 
-You must also have Microsoft Visual Studio 2017 or later installed on your machine before you start this guide.
+This guide is aimed at more technical users who are familiar with Visual Studio and/or JetBrains Rider and have a **basic understanding of C#**. 
+
+The SpecFlow extension works with **Visual Studio 2017 or later** and **JetBrains Rider 2020.3.1 or later**.
+Depending on which guide you chose to follow, you must have one of these IDEs installed on your machine.
 
 If you don’t fall into the category of users mentioned above then we recommend you to `learn more about SpecFlow <https://go.specflow.org/a1h>`_ 
 before pairing up with a more technical person and continuing this guide.
@@ -13,7 +15,7 @@ before pairing up with a more technical person and continuing this guide.
 The guide will take you through the process of setting up your first SpecFlow project and 
 automate a simple Gherkin specification against a sample application.
 
-*Estimated total time: 60 minutes 
+*Estimated total time: 60 minutes
 
 **What is not part of this guide?**
 
@@ -27,8 +29,8 @@ You can also get help by reaching out to our support team `here <https://go.spec
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting Started from Scratch
-   :numbered:
+   :caption: Getting Started-Visual Studio
+   :hidden:
    
    
    GettingStarted/Step1.md 
@@ -41,6 +43,29 @@ You can also get help by reaching out to our support team `here <https://go.spec
    GettingStarted/Step8.md 
    GettingStarted/Step9.md
    GettingStarted/Step10.md
+   
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started-JetBrains Rider
+   :hidden:
+   
+   
+   gettingstartedrider/Step1r.md
+   gettingstartedrider/Step2r.md
+   gettingstartedrider/Step3r.md
+   gettingstartedrider/Step4r.md
+   gettingstartedrider/Step5r.md
+   gettingstartedrider/Step6r.md
+   gettingstartedrider/Step7r.md
+   gettingstartedrider/Step8r.md
+   gettingstartedrider/Step9r.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Additional Resrouces
+   :hidden:
+
    GettingStarted/Exercise.md
    GettingStarted/Exercise-Solution.md
    GettingStarted/Resources.md

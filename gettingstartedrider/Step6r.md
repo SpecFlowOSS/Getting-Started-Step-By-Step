@@ -5,9 +5,7 @@ Bind remaining steps
 
 In this step you'll bind the remaining steps of the scenario.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vEqglJKmBVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**1-** Similar to the previous page , navigate to the bindings from the feature file by right-clicking the second Given step "And the second number is 70" and select either the "Go To Definition" or the "Go To Step Definition" command. Alternatively you can open the `CalculatorStepDefinitions.cs` directly.
+**1-** Similar to the previous step, Right-click the second _Given_ step "And the second number is 70" and select *"Go To --> Implementation"* or use the *"Ctrl + F12"* shortcut.
 
 **2-** Implement the binding of the second step "And the second number is 70" by replacing the code of the `GivenTheSecondNumberIs` method with the below:
 
@@ -19,15 +17,17 @@ In this step you'll bind the remaining steps of the scenario.
     }
 ```
 
-![Second Given](../_static/step7/second_step_code.png)
+![Binding two](../_static/riderimages/secondef.png)
 
-**We use the "And" keyword in the Gherkin scenario for better readability. The "And" keyword will be interpreted as "Given", "When" or "Then" depending on the previous step(s) in the scenario. In this example the "And the second number is 70" is interpreted as a "Given" step because the previous step is a "Given" step.*
+*> Note: We use the "And" keyword in the Gherkin scenario for better readability. The "And" keyword will be interpreted as "Given", "When" or "Then" depending on the previous step(s) in the scenario. In this example the "And the second number is 70" is interpreted as a "Given" step because the previous step is a "Given" step.*
 
 **3-** Next, implement the binding of the third step, "When the two numbers are added", by replacing the code of the `WhenTheTwoNumbersAreAdded` method with the below. The method must have a `When` attribute, as it belongs to the "When" step in the scenario.
 
-``` c#
+``` csharp
     private int _result;
+```
 
+``` csharp
     [When("the two numbers are added")]
     public void WhenTheTwoNumbersAreAdded()
     {
@@ -35,47 +35,49 @@ In this step you'll bind the remaining steps of the scenario.
     }
 ```
 
-![Second Given](../_static/step7/when_step_code.png)
+![Binding three](../_static/riderimages/thirddef.png)
 
 This implementation calls the `Add` method of the calculator. Note that the result of the addition is not stored by the calculator in a property/field but it is returned  to the caller. It's a good idea to store the returned value in a field so that we can work with the result afterwards.
 
 **4-** Implement the binding of the last step, "Then the result should be 120", by replacing the code of the `ThenTheResultShouldBe` method. The method must have a `Then` attribute, as it belongs to a "Then" step in the scenario.
 
-Add a namespace using for FluentAssertions at the top of the file:
+Add a namespace using for xUnit at the top of the file:
 
-``` c#
-using FluentAssertions;
+``` csharp
+    using Xunit;
 ```
 
-Use the below code for implementation of the "Then" step which validates if the result of the addition matches the expected value (using the FluentAssertions library).
+Use the below code for implementation of the "Then" step which validates if the result of the addition matches the expected value.
 
-``` c#
+``` csharp
     [Then("the result should be (.*)")]
     public void ThenTheResultShouldBe(int result)
     {
-        _result.Should().Be(result);
+        Assert.Equal(result, _result);
     }
 ```
-![Second Given](../_static/step7/then_step_code.png)
+
+![Binding three](../_static/riderimages/thenstep.png)
 
 After implementing all step definitions and cleaning up the file you should have the following code:
 
-``` c#
-using FluentAssertions;
+``` csharp
+
 using TechTalk.SpecFlow;
+using Xunit;
+
 
 namespace SpecFlowCalculator.Specs.Steps
 {
     [Binding]
     public sealed class CalculatorStepDefinitions
     {
-        // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
-
         private readonly ScenarioContext _scenarioContext;
-
+        
         private readonly Calculator _calculator = new Calculator();
+        
         private int _result;
-
+        
         public CalculatorStepDefinitions(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
@@ -86,7 +88,7 @@ namespace SpecFlowCalculator.Specs.Steps
         {
             _calculator.FirstNumber = number;
         }
-
+        
         [Given("the second number is (.*)")]
         public void GivenTheSecondNumberIs(int number)
         {
@@ -102,7 +104,7 @@ namespace SpecFlowCalculator.Specs.Steps
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(int result)
         {
-            _result.Should().Be(result);
+            Assert.Equal(result, _result);
         }
     }
 }
@@ -113,12 +115,8 @@ namespace SpecFlowCalculator.Specs.Steps
 
 **6-** Run the test again.
 
-The test should execute and fail, this is expected. In the Test Detail Summary pane of Test Explorer you can see that a NotImplementedException has been thrown in the Add method of the calculator.  
-![Test Explorer Failed Test](../_static/step7/test_explorer_failed_testv2.png)
+The test should execute and fail, this is expected. In the Test Detail Summary pane of Test Explorer you can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an *error : The method or operation is not implemented*. This is because the addition method of the calculator is not implemented yet.
 
-**7-** Click on the "Open additional output for this result" below the stack trace to see a more detailed log of the scenario.  
-![Test Explorer Additional Output](../_static/step7/test_explorer_additional_outputv2.png)
-
-You can see that the first two "Given" steps executed successfully and the "When the two numbers are added" step failed with an error. This is because the addition method of the calculator is not implemented yet.
+![Then step failed test](../_static/riderimages/thenerror.png)
 
 📄 In the next step you'll fix the implementation of the calculator to fix this error.

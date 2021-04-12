@@ -25,4 +25,4 @@ Once the extension is successfully installed, you can see it in the list of "Ins
 
 ![Manage Extensions Dialog - Extension Installed](../_static/step1/extension_dialog_installedv2.png)
 
-![SpecFlow logo](../_static/step1/specflow_logov2.png) In the next steps you'll create a simple application that will be used throughout this guide.
+📄 In the next steps you'll create a simple application that will be used throughout this guide.
