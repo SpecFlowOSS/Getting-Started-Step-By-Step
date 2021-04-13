@@ -29,7 +29,7 @@ You can also get help by reaching out to our support team `here <https://go.spec
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting Started-Visual Studio
+   :caption: Microsoft Visual Studio
    :hidden:
    
    
@@ -47,7 +47,7 @@ You can also get help by reaching out to our support team `here <https://go.spec
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting Started-JetBrains Rider
+   :caption: JetBrains Rider
    :hidden:
    
    
@@ -63,7 +63,7 @@ You can also get help by reaching out to our support team `here <https://go.spec
 
 .. toctree::
    :maxdepth: 1
-   :caption: Additional Resrouces
+   :caption: Additional Resources
    :hidden:
 
    GettingStarted/Exercise.md
