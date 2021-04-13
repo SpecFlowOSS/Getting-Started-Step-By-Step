@@ -5,7 +5,7 @@ Create SpecFlow Project
 
 In this step you'll create a SpecFlow project and add it to the existing calculator solution.
 
-**1-** **Right-click** the solution item *"'SpecFlowCalculator'(1 of 1 project)"* under the Solution Explorer and select the "Add ➡ New Project..." menu item.
+**1-** **Right-click** the solution item *"'SpecFlowCalculator'(1 of 1 project)"* under the Solution Explorer and select the "Add ➡ New Project" menu item.
 
 ![add specflow project](../_static/riderimages/addproject.png)
 
