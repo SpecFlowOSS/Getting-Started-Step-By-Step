@@ -1,4 +1,4 @@
-SpecFlow + Runner Activation
+SpecFlow + Runner activation
 =============================
 
 ⏲️ 5 minutes

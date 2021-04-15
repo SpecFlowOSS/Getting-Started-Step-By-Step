@@ -1,4 +1,4 @@
-Create SpecFlow Project
+Create SpecFlow project
 =======================
 
 ⏲️ 5 minutes

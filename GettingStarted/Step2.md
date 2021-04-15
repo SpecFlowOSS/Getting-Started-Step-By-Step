@@ -1,4 +1,4 @@
-Create Calculator Project
+Create calculator project
 =========================
 
 ⏲️ 10 minutes

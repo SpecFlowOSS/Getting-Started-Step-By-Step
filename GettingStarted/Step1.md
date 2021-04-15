@@ -1,4 +1,4 @@
-Install Visual Studio Extension
+Install Visual Studio extension
 ================================
 ⏲️ 10 minutes
 

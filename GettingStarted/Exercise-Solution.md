@@ -1,5 +1,5 @@
-Exercise-Solution
-========
+Exercise-solution
+=================
 
 ⏲️ 10 minutes
 
