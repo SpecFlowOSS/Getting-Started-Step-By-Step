@@ -29,4 +29,4 @@ In this step you'll fix the implementation error of the calculator in the previo
 
 You can see that each step executed successfully and the test is passed.
 
-![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you'll learn how to generate living documentation.
+📄 In the next step you'll learn how to generate living documentation.

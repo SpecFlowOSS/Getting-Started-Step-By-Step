@@ -65,4 +65,4 @@ The next step in the scenario is pending, as we have not yet implemented it:
 
 ![Pending Step Result](../_static/step6/pending_step_result.png)
 
-![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will bind the rest of the scenario steps.
+📄 In the next step you will bind the rest of the scenario steps.

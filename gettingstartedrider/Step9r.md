@@ -3,7 +3,7 @@ Final
 
 CONGRATULATIONS!
 
-![Dotnet Version](../_static/final/finished_tutorialv3.png)
+![Final photo](../_static/final/finished_tutorialv3.png)
 
 You have now successfully created and tested your first SpecFlow project.
 

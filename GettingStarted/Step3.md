@@ -1,7 +1,7 @@
-Create SpecFlow Project
+Create SpecFlow project
 =======================
 
-⏲️ 10 minutes
+⏲️ 5 minutes
 
 In this step you'll create a SpecFlow project and add it to the existing calculator solution:
 
@@ -27,4 +27,4 @@ You should see the new SpecFlow project in the Solution Explorer as per below:
 
 ![SpecFlow Project Created](../_static/step3/solution_explorer_with_specsv2.png)
 
-![Specflow logo](../_static/step1/specflow_logov2.png) In the next step you will learn how to add a project reference and how to use the test explorer.
+📄 In the next step you will learn how to add a project reference and how to use the test explorer.

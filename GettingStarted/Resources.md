@@ -1,5 +1,5 @@
-Additional Resources
-==========
+Additional resources
+===================
 
 __Want to learn more?__
 
