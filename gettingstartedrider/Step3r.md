@@ -11,7 +11,7 @@ In this step you'll create a SpecFlow project and add it to the existing calcula
 
 **2-** Click on *SpecFlow Project Template* under the *Other* category, enter the project name as **"SpecFlowCalculator.Specs"**, keep the suggested location (the solution folder), pick *xUnit* as the Test Framework and hit *Create*:
 
-![specflow project configs](../_static/riderimages/specproject.png)
+![specflow project configs](../_static/riderimages/specproject2.png)
 
 **3-** JetBrains Rider will now create the new project, you should see the new SpecFlow project in the Solution Explorer as per below:
 
