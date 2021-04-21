@@ -17,6 +17,8 @@ Now the solution is set up with a class library containing the implementation of
 
 **4-** Run all the tests by navigating to  "Tests ➡ Run All Tests from Solution":
 
+*> Note: The red underline applied to the project name and feature file in the explorer pane is a known xUnit bug in Rider and does **NOT** indicate an error.*
+
 ![failed test](../_static/riderimages/failtest.png)
 
 The tests would fail as expected as our step definitions are not yet implemented.
