@@ -11,7 +11,7 @@ In this step you'll create a SpecFlow project and add it to the existing calcula
 
 **2-** Click on *SpecFlow Project Template* under the *Other* category, enter the project name as **"SpecFlowCalculator.Specs"**, keep the suggested location (the solution folder), pick *xUnit* as the Test Framework and hit *Create*:
 
-> Note: If you cannot see SpecFlow Project Template, close this window, run `dotnet new -i SpecFlow.Templates.DotNet` in a command window, and go back to step 1.
+> Note: If you cannot see SpecFlow Project Template, ensure you have SpecFlow for Rider Plugin 1.6.0 or higher installed. (Only compatible with Rider 2021.1 or higher)
 
 > Note: Currently running the tests from the feature files is only possible with **xUnit** and **NUnit**.*
 
