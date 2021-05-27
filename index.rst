@@ -224,9 +224,7 @@ Welcome to the Step-By-Step Getting Started Guide!
 
                               <td colspan="3" align="left"> <!--change to 8 for new box-->
 
-                                 <div style="margin-bottom:40px; margin-top:40px; ">
-                                 If you don’t fall into the category of users mentioned above then we recommend you to <a href="https://go.specflow.org/a1h">learn more about SpecFlow </a> before pairing up with a more technical person and going through one of these guides.
-                                 </div>
+                                 
 
                               </td>
 
@@ -235,21 +233,11 @@ Welcome to the Step-By-Step Getting Started Guide!
 
                         </table>
 
-                        <hr size="10" width="100%" color=#574897>
+                        
 
                         
 
-                        <P>Do you need any further help?<br></br>
-
-
-
-                        <a href="https://go.specflow.org/11w">Join our next onboarding webinar</a> to help you get started with SpecFlow.<br></br>
-
                         
-
-                        You can also get help by reaching out to our support team <a href="https://go.specflow.org/nfg">here<a/>.<br></br>
-
-                        </P>
 
       
                   
