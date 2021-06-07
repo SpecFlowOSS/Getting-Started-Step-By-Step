@@ -15,7 +15,7 @@ In this step you'll create a SpecFlow project and add it to the existing calcula
 
 > Note: Currently running the tests from the feature files is only possible with **xUnit** and **NUnit**.*
 
-![specflow project configs](../_static/riderimages/specproject2.png)
+![specflow project configs](../_static/riderimages/specproject3.png)
 
 **3-** JetBrains Rider will now create the new project, you should see the new SpecFlow project in the Solution Explorer as per below:
 
