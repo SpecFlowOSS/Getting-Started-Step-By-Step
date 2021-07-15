@@ -22,8 +22,6 @@ You should see the test output of the SpecFlow+ Runner including a link for the 
 
 **3-** You should now see a welcome screen, click the ***Sign in with Microsoft*** button. Preferably, use your work or student Microsoft account to sign in, but if your professional account is restricted and you run into issues you can always use your personal Microsoft account.
 
-![Add new project menu](../_static/step5/activation_welcome.png)
-
 **4-** After the authentication with the selected account, Microsoft will ask for your permission to sign in to SpecFlow and share your basic profile information with SpecFlow.
 You have to "Accept" the permission request to continue.  
 ![Add new SpecFlow project](../_static/step5/microsoft_permission_requestedv2.png)  
