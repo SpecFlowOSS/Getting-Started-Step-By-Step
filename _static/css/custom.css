@@ -40,11 +40,11 @@ a:hover {
   text-align: center;
   vertical-align: middle;
   background-color: rgb(113, 111, 179);
-  height: 46px;
+  height: auto;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
-  padding: .3em 1em .3em .7em;
+  padding: 10px 0;
 }
 
 .sf-banner-link {
